@@ -1,13 +1,28 @@
+@font-face {
+    font-family: 'OPTIMA';
+    src: url('fonts/FontsFree-Net-OPTIMA.ttf') format('ttf'),
+    url('fonts/FontsFree-Net-OPTIMA.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'ROOM';
+    src: url('fonts/room-205.otf') format('otf'),
+    url('fonts/room-205.otf') format('woff');
+}
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'OPTIMA', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+    text-decoration: none;
 }
